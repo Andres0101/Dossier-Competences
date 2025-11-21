@@ -1,14 +1,30 @@
 .content {
-	@include padding(padding, 3rem 4rem 0);
+	@include padding(padding, 4rem 4rem 0);
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+
+	.separator {
+		page-break-before: always;
+		height: 22rem;
+	}
+
+	.newPage {
+		margin-top: 980px;
+	}
+	.lastPage {
+		margin-top: 770px;
+	}
 
 	.list {
 		@include padding(padding-left, 1rem);
 		color: $text-primary;
 		list-style: none;
 		margin: 1rem 0 0.5rem;
+
+		&.mt0 {
+			margin-top: 0;
+		}
 
 		li {
 			@include padding(padding-left, 1.25rem);

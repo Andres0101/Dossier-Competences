@@ -63,5 +63,220 @@
 			"2012 - 2017 : Bac+5 Concepteur de Médias Interactifs - Université Icesi, Colombie"
 		],
 		"highlightWords": ["2017 - 2018 :", "2012 - 2017 :"]
+	},
+	"experiences": {
+		"title": "Références projets",
+		"soop": {
+			"position": "Développeur Full Stack (web / mobile)",
+			"company": "Soop",
+			"period": "Mai 2023 - Présent",
+			"project": "PROJET : Restructuration et refonte de l'application web et mobile, en collaboration avec l'équipe UX/UI, afin d'offrir une expérience utilisateur fluide et de garantir ainsi l'optimisation et la performance des applications.",
+			"highlightWords": ["PROJET :"],
+			"missions": {
+				"title": "Missions",
+				"list": [
+					"Livraison complète d'une application web et mobile opérationnelle, couvrant conception, développement, déploiement et support.",
+					"Architecture applicative clarifiée grâce à la participation aux décisions techniques, assurant une feuille de route cohérente et évolutive.",
+					"Fiabilisation des échanges de données via la mise en place de web services robustes et l'intégration d'APIs internes/externes, garantissant des flux unifiés.",
+					"Transformation des maquettes UX/UI en interfaces finales, préservant la qualité du design et améliorant l'expérience utilisateur.",
+					"Maintien d'un niveau de service élevé : maintenance préventive, évolutions planifiées, optimisations de performance et réduction continue des bugs.",
+					"Renforcement de la qualité collective par des revues de code systématiques et des tests fonctionnels exhaustifs, réduisant les régressions en production."
+				]
+			},
+			"technologies": {
+				"title": "Environnement technique",
+				"list": [
+					"React",
+					"React Native",
+					"TypeScript",
+					"JavaScript",
+					"Node.js",
+					"MongoDB",
+					"Express",
+					"SASS",
+					"Git"
+				]
+			},
+			"results": {
+				"title": "Résultats",
+				"description": "Taux d'indicents réduit, croissance significative du trafic, augmentation de la satisfaction utilisateur et amélioration des performances des applications."
+			}
+		},
+		"sully": {
+			"position": "Développeur / Lead Développeur Front-end (web / mobile)",
+			"company": "Sully Group",
+			"period": "Septembre 2018 - Avril 2023",
+			"highlightWords": [
+				"PROJET HUMOON :",
+				"PROJET FranceAgriMer - VISIOCaptures :",
+				"PROJET ORYX - eXpanded :",
+				"PROJET RTE - DECOFER :",
+				"PROJET RTE - MOOSE :"
+			],
+			"projects": [
+				{
+					"title": "PROJET HUMOON : Développement d'une application web et mobile basée sur les feedbacks de l'entourage professionnel de l'utilisateur, qui permet d'explorer de nouvelles opportunités et de choisir l'orientation professionnelle appropriée.",
+					"missions": {
+						"title": "Missions",
+						"list": [
+							"Transformation des maquettes UX/UI en interfaces finales, préservant la qualité du design et améliorant l'expérience utilisateur.",
+							"Maintien d'un niveau de service élevé : maintenance préventive, évolutions planifiées, optimisations de performance et réduction continue des bugs.",
+							"Résolution rapide et efficace des bugs, garantissant la stabilité et la fiabilité des applications en production.",
+							"Déploiement automatisé et sécurisé des applications, assurant une mise en production fluide et sans interruption de service.",
+							"Renforcement de la qualité collective par des revues de code et des tests fonctionnels, réduisant les régressions en production."
+						]
+					},
+					"technologies": {
+						"title": "Environnement technique",
+						"list": [
+							"React",
+							"React Native",
+							"TypeScript",
+							"JavaScript",
+							"SASS",
+							"Git",
+							"SQL",
+							"Scrum"
+						]
+					},
+					"results": {
+						"title": "Résultats",
+						"description": "Applications opérationnelles, livraison des applications répondant aux exigences métiers, satisfaction client grâce à la réactivité et le respect des délais de livraisons."
+					}
+				},
+				{
+					"title": "PROJET FranceAgriMer - VISIOCaptures : Développement d'une application mobile qui remplace la déclaration sous format papier des fiches et journaux de pêche pour les capitaines de navires de moins de 12 mètres.",
+					"missions": {
+						"title": "Missions",
+						"list": [
+							"Encadrement et coordination d'une équipe de 2 développeurs, structurant la feuille de route et garantissant des livraisons alignées sur les exigences métier.",
+							"Optimisation continue des performances de l'application, réduisant les temps de chargement et améliorant l'expérience utilisateur.",
+							"Maintien d'un niveau de service élevé : maintenance préventive, évolutions planifiées et optimisation continue de l'application.",
+							"Estimation et découpage des tâches pour chaque sprint, optimisant la planification et la répartition du travail au sein de l'équipe.",
+							"Renforcement de la qualité collective par des revues de code et des tests fonctionnels.",
+							"Déploiement et publication de l'application sur les stores Google Play et App Store, assurant une distribution fluide et conforme aux standards de qualité."
+						]
+					},
+					"technologies": {
+						"title": "Environnement technique",
+						"list": [
+							"Angular",
+							"JavaScript",
+							"NativeScript",
+							"CSS",
+							"Git",
+							"SQL",
+							"Jenkins",
+							"Scrum"
+						]
+					},
+					"results": {
+						"title": "Résultats",
+						"description": "Application mobile fidèle à la maquette et conforme aux exigences métiers, réduction significative des incidents grâce au suivi régulier, encadrement réussie de l'équipe de développeurs."
+					}
+				},
+				{
+					"title": "PROJET ORYX - eXpanded : Application mobile qui permet le partage des contacts et des mandats entre négociateurs indépendants.",
+					"missions": {
+						"title": "Missions",
+						"list": [
+							"Encadrement et coordination d'une équipe de 3 développeurs, structurant la feuille de route et garantissant des livraisons alignées sur les exigences métier.",
+							"Développement intégral de l'application mobile, couvrant la conception, l'architecture, le développement et l'intégration de toutes les fonctionnalités.",
+							"Transformation des maquettes UX/UI en interfaces finales, préservant la qualité du design et améliorant l'expérience utilisateur.",
+							"Résolution rapide et efficace des bugs, garantissant la stabilité et la fiabilité de l'application en production.",
+							"Déploiement et publication de l'application sur les stores Google Play et App Store, assurant une distribution fluide et conforme aux standards de qualité."
+						]
+					},
+					"technologies": {
+						"title": "Environnement technique",
+						"list": [
+							"React Native",
+							"JavaScript",
+							"CSS",
+							"Git",
+							"SQL",
+							"Jenkins",
+							"Scrum"
+						]
+					},
+					"results": {
+						"title": "Résultats",
+						"description": "Livraison de l'application mobile conforme aux exigences métiers."
+					}
+				},
+				{
+					"title": "PROJET RTE - DECOFER : Dispositif de décompte ferroviaire.",
+					"missions": {
+						"title": "Missions",
+						"list": [
+							"Développement d'une application web en utilisant Angular 4+, mettant en œuvre les meilleures pratiques et les fonctionnalités.",
+							"Optimisation continue des performances de l'application, réduisant les temps de chargement, améliorant la réactivité et l'expérience utilisateur globale.",
+							"Intégration précise des écrans à partir des maquettes fournies par les designers UX/UI, transformant les designs en interfaces fonctionnelles tout en préservant la qualité visuelle et l'expérience utilisateur."
+						]
+					},
+					"technologies": {
+						"title": "Environnement technique",
+						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+					},
+					"results": {
+						"title": "Résultats",
+						"description": "Application opérationnelle, réduction significative des régressions en production grâce au suivi régulier."
+					}
+				},
+				{
+					"title": "PROJET RTE - MOOSE : Envoie de prévisions de consommation et de production d'électricité en France chaque jour au service européen STA (Short Term Adequacy).",
+					"missions": {
+						"title": "Missions",
+						"list": [
+							"Développement intégral de l'application web, couvrant la conception, l'architecture, le développement et l'intégration de toutes les fonctionnalités.",
+							"Mise en œuvre de web services robustes et performants, garantissant des échanges de données fiables et sécurisés entre les différents composants de l'application.",
+							"Intégration d'APIs internes et externes pour unifier les flux de données provenant de sources diverses, assurant une synchronisation cohérente et fiable.",
+							"Implémentation de services Angular pour l'intégration automatique de données et la génération de fichiers, optimisant les processus et réduisant les interventions manuelles.",
+							"Maintien d'un niveau de service élevé : maintenance préventive, évolutions planifiées et optimisation continue de l'application."
+						]
+					},
+					"technologies": {
+						"title": "Environnement technique",
+						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+					},
+					"results": {
+						"title": "Résultats",
+						"description": "Application opérationnelle, satisfaction client grâce à la réactivité et le respect des délais de livraison."
+					}
+				}
+			]
+		},
+		"affeniteam": {
+			"position": "Développeur Full Stack - Stage de fin d'études",
+			"company": "Affeniteam (HUB de l'entrepreneuriat)",
+			"period": "Mars 2018 - Septembre 2018",
+			"project": "PROJET : Maquettation et refonte des applications web, en répondant aux besoins fonctionnels et aux exigences métier.",
+			"highlightWords": ["PROJET :"],
+			"missions": {
+				"title": "Missions",
+				"list": [
+					"Responsable du développement et du déploiement des applications web, livrant des outils opérationnels pour l'équipe projet.",
+					"Suivi post-production et maintenance corrective, maintenant la fiabilité des services en ligne.",
+					"Automatisation des tests unitaires, sécurisant les évolutions et réduisant les retours utilisateurs."
+				]
+			},
+			"technologies": {
+				"title": "Environnement technique",
+				"list": [
+					"Angular",
+					"TypeScript",
+					"JavaScript",
+					"Java",
+					"PHP",
+					"Symfony",
+					"SQL",
+					"CSS"
+				]
+			},
+			"results": {
+				"title": "Résultats",
+				"description": "Expérience utilisateur enrichie, amélioration des performances des applications et réduction des temps de développement."
+			}
+		}
 	}
 }

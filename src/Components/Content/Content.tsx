@@ -1,5 +1,6 @@
 // Components
 import Education from './Education/Education';
+import Experiences from './Experiences/Experiences';
 import Languages from './Languages/Languages';
 import Profile from './Profile/Profile';
 import Skills from './Skills/Skills';
@@ -13,6 +14,8 @@ export default function Content() {
 			<Skills />
 			<Education />
 			<Languages />
+			<div className={styles.separator} aria-hidden />
+			<Experiences />
 		</div>
 	);
 }
