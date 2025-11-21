@@ -1,0 +1,18 @@
+.header {
+	@include padding(padding, 1rem 4rem);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	background: $bg-grey;
+	width: 100%;
+
+	h5,
+	h6 {
+		letter-spacing: 0.0625rem; // 1px
+	}
+
+	svg path {
+		fill: $bg-white;
+	}
+}

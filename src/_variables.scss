@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family: 'Roboto', sans-serif;
+
+// h1
+$font-size-xxl: 1.75rem; // 28px
+$font-weight-xxl: 400;
+$line-height-xxl: 1.75rem; // 28px
+$letter-spacing-xxl: 0;
+
+// h2
+$font-size-xl: 1.5rem; // 24px
+$font-weight-xl: 600;
+$line-height-xl: 1.875rem; // 30px
+$letter-spacing-xl: 0;
+
+// h3
+$font-size-l: 1.375rem; // 22px
+$font-weight-l: 400;
+$line-height-l: 1.5rem; // 24px
+$letter-spacing-l: 0;
+
+// h4
+$font-size-m: 1.25rem; // 20px
+$font-weight-m: 400;
+$line-height-m: 1.375rem; // 22px
+$letter-spacing-m: 0;
+
+// h5
+$font-size-s: 1rem; // 16px
+$font-weight-s: 600;
+$line-height-s: 1.25rem; // 20px
+$letter-spacing-s: 0;
+
+// h6
+$font-size-xs: 0.75rem; // 12px
+$font-weight-xs: 500;
+$line-height-xs: 1.5rem; // 24px
+$letter-spacing-xs: 0;
+
+// button
+$font-size-button: 0.875rem; // 14px
+$font-weight-button: 500;
+$line-height-button: 1.25rem; // 20px
+$letter-spacing-button: 0;
+
+// p
+$font-size-body: 0.875rem; // 14px
+$font-weight-body: 400;
+$line-height-body: 1.25rem; // 20px
+$letter-spacing-body: 0;
+
+$xs: 320px; // Extra small devices
+$sm: 480px; // Small devices
+$md: 768px; // Medium devices
+$lg: 1024px; // Large devices
+$xl: 1200px; // Extra large devices
+$hd: 1366px; // HD resolution devices
+$fhd: 1536px; // Full HD resolution devices
+$uhd: 1920px; // Ultra HD resolution devices
+$quhd: 2560px; // Quad Ultra HD resolution devices

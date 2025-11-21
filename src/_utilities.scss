@@ -1,0 +1,377 @@
+@use 'src/_colors' as *;
+
+.text-primary {
+	color: $text-primary;
+}
+.text-secondary {
+	color: $text-secondary;
+}
+.text-placeholder {
+	color: $text-placeholder;
+}
+.text-white {
+	color: $bg-white;
+}
+
+.br-0 {
+	border-radius: 0;
+}
+
+.br-4 {
+	border-radius: 0.25rem; // 4px
+}
+
+.br-8 {
+	border-radius: 0.5rem; // 8px
+}
+
+.br-16 {
+	border-radius: 1rem; // 16px
+}
+
+.br-full {
+	border-radius: 50%;
+}
+
+.no-border {
+	border: none;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+.fw-400 {
+	font-weight: 400;
+}
+.fw-500 {
+	font-weight: 500;
+}
+.fw-600 {
+	font-weight: 600;
+}
+.fw-700 {
+	font-weight: 700;
+}
+.fw-900 {
+	font-weight: 900;
+}
+
+.fs-10 {
+	font-size: 0.625rem;
+}
+.fs-12 {
+	font-size: 0.75rem;
+}
+.fs-13 {
+	font-size: 0.8125rem;
+}
+.fs-14 {
+	font-size: 0.875rem;
+}
+.fs-15 {
+	font-size: 0.9375rem;
+}
+.fs-16 {
+	font-size: 1rem;
+}
+.fs-18 {
+	font-size: 1.125rem;
+}
+.fs-20 {
+	font-size: 1.25rem;
+}
+.fs-22 {
+	font-size: 1.375rem;
+}
+.fs-24 {
+	font-size: 1.5rem;
+}
+.fs-36 {
+	font-size: 2.25rem;
+}
+.fs-46 {
+	font-size: 2.875rem;
+}
+
+.flex {
+	display: flex;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-nowrap {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.center {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.is {
+	align-items: flex-start;
+}
+.ic {
+	align-items: center;
+}
+.ie {
+	align-items: flex-end;
+}
+.is {
+	align-items: stretch;
+}
+
+.js {
+	justify-content: flex-start;
+}
+.jc {
+	justify-content: center;
+}
+.je {
+	justify-content: flex-end;
+}
+.jb {
+	justify-content: space-between;
+}
+.ja {
+	justify-content: space-around;
+}
+.ja {
+	justify-content: space-evenly;
+}
+
+.flex-1-1 {
+	flex: 1 1 auto;
+}
+
+.flex-1 {
+	flex: 1;
+}
+.flex-auto {
+	flex: auto;
+}
+.flex-none {
+	flex: none;
+}
+
+.spaced-flex {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.g0 {
+	gap: 0;
+}
+.gap-4 {
+	gap: 0.25rem; // 4px
+}
+.gap-8 {
+	gap: 0.5rem; // 8px
+}
+.gap-12 {
+	gap: 0.75rem; // 12px
+}
+.gap-16 {
+	gap: 1rem; // 16px
+}
+.gap-20 {
+	gap: 1.25rem; // 20px
+}
+.gap-24 {
+	gap: 1.5rem; // 24px
+}
+.gap-28 {
+	gap: 1.75rem; // 28px
+}
+.gap-32 {
+	gap: 2rem; // 32px
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.underline {
+	text-decoration: underline;
+}
+.line-through {
+	text-decoration: line-through;
+}
+.italic {
+	font-style: italic;
+}
+.normal {
+	font-style: normal;
+}
+
+.lh-normal {
+	line-height: normal;
+}
+.lh-none {
+	line-height: 1;
+}
+.lh-tight {
+	line-height: 1.25;
+}
+.lh-relaxed {
+	line-height: 1.5;
+}
+.lh-loose {
+	line-height: 2;
+}
+
+.fw {
+	width: 100% !important;
+}
+
+.fh {
+	height: 100% !important;
+}
+
+// Overflow utilities
+.oa {
+	overflow: auto;
+}
+
+.oh {
+	overflow: hidden;
+}
+
+.os {
+	overflow: scroll;
+}
+
+.ov {
+	overflow: visible;
+}
+
+.oxa {
+	overflow-x: auto;
+}
+
+.oxh {
+	overflow-x: hidden;
+}
+
+.osx {
+	overflow-x: scroll;
+}
+
+.osxv {
+	overflow-x: visible;
+}
+
+.oya {
+	overflow-y: auto;
+}
+
+.oyh {
+	overflow-y: hidden;
+}
+
+.oys {
+	overflow-y: scroll;
+}
+
+.oysv {
+	overflow-y: visible;
+}
+
+.svg-8 {
+	width: 1rem !important;
+	height: 1rem !important;
+	min-width: 1rem !important;
+	min-height: 1rem !important;
+	max-width: 1rem !important;
+	max-height: 1rem !important;
+}
+.svg-12 {
+	width: 1.5rem !important;
+	height: 1.5rem !important;
+	min-width: 1.5rem !important;
+	min-height: 1.5rem !important;
+	max-width: 1.5rem !important;
+	max-height: 1.5rem !important;
+}
+
+.svg-16 {
+	width: 2rem !important;
+	height: 2rem !important;
+	min-width: 2rem !important;
+	min-height: 2rem !important;
+	max-width: 2rem !important;
+	max-height: 2rem !important;
+}
+
+.svg-20 {
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+	min-width: 2.5rem !important;
+	min-height: 2.5rem !important;
+	max-width: 2.5rem !important;
+	max-height: 2.5rem !important;
+}
+
+.svg-placeholder {
+	path {
+		fill: $text-placeholder;
+	}
+}
+
+.noBg {
+	background: none !important;
+}
+
+.noBorder {
+	border: none;
+}
+
+.noOutline {
+	outline: none;
+}
+
+.borderBottom {
+	border-bottom: 1px solid $border-color;
+}
+
+.borderTop {
+	border-top: 1px solid $border-color;
+}
+
+.borderLeft {
+	border-left: 1px solid $border-color;
+}
+
+.borderRight {
+	border-right: 1px solid $border-color;
+}
+
+.borderAll {
+	border: 1px solid $border-color;
+}
+
+.minW0 {
+	min-width: 0;
+}
+
+.maxW100 {
+	max-width: 100%;
+}

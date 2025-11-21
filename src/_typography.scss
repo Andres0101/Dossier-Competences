@@ -1,0 +1,138 @@
+@use 'src/_colors' as *;
+@use 'src/_mixin' as *;
+@use 'src/_variables' as *;
+
+@mixin responsive-heading($size, $weight, $line-height, $letter-spacing) {
+	font-family: $font-family;
+	font-weight: $weight;
+	font-size: $size;
+	line-height: $line-height;
+	letter-spacing: $letter-spacing;
+	color: $text-primary;
+	margin: 0;
+}
+
+h1,
+.h1 {
+	@include responsive-heading(
+		$font-size-xxl,
+		$font-weight-xxl,
+		$line-height-xxl,
+		$letter-spacing-xxl
+	);
+}
+
+h2,
+.h2 {
+	@include responsive-heading(
+		$font-size-xl,
+		$font-weight-xl,
+		$line-height-xl,
+		$letter-spacing-xl
+	);
+}
+
+h3,
+.h3 {
+	@include responsive-heading(
+		$font-size-l,
+		$font-weight-l,
+		$line-height-l,
+		$letter-spacing-l
+	);
+}
+
+h4,
+.h4 {
+	@include responsive-heading(
+		$font-size-m,
+		$font-weight-m,
+		$line-height-m,
+		$letter-spacing-m
+	);
+}
+
+h5,
+.h5 {
+	@include responsive-heading(
+		$font-size-s,
+		$font-weight-s,
+		$line-height-s,
+		$letter-spacing-s
+	);
+}
+
+h6,
+.h6 {
+	@include responsive-heading(
+		$font-size-xs,
+		$font-weight-xs,
+		$line-height-xs,
+		$letter-spacing-xs
+	);
+}
+
+button,
+.button {
+	font-family: $font-family;
+	font-weight: $font-weight-button;
+	font-size: $font-size-button;
+	line-height: $line-height-button;
+	letter-spacing: $letter-spacing-button;
+}
+
+p,
+.body {
+	font-family: $font-family;
+	font-weight: $font-weight-body;
+	font-size: $font-size-body;
+	line-height: $line-height-body;
+	letter-spacing: $letter-spacing-body;
+	color: $text-primary;
+}
+
+.caption {
+	color: $text-secondary;
+	font-family: $font-family;
+	user-select: none;
+	font-weight: 500;
+	font-size: 0.75rem;
+	line-height: 15rem;
+	letter-spacing: 0.5px;
+}
+
+.primary {
+	color: $text-primary;
+}
+
+.secondary {
+	color: $text-secondary;
+}
+
+.placeholder {
+	color: $text-placeholder;
+}
+
+.title-xs {
+	@extend .h6;
+}
+
+.title-s {
+	@extend .h5;
+}
+
+.title-m {
+	@extend .h4;
+}
+
+.title-l {
+	@extend .h3;
+}
+
+.title-xl {
+	@extend .h2;
+}
+
+.title-xxl {
+	@extend .h1;
+}
