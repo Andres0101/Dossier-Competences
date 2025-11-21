@@ -1,5 +1,50 @@
 {
 	"header": {
 		"title": "Lead Developer / Full Stack Developer (React / Node.js)"
+	},
+	"profile": {
+		"title": "Profile",
+		"description": "Experienced Full Stack Developer with over 7 years of experience creating high-performance, optimized web solutions. Skilled in quickly identifying and resolving bugs, ensuring stability and the quality of every project.\nAs a Lead Dev and Developer, I guarantee the productivity and efficiency required to achieve expected project outcomes, adapting rapidly to new environments and technologies. Specialized in React, Angular, TypeScript and JavaScript, always seeking optimization and performance by applying best practices to deliver fast, scalable and maintainable applications.",
+		"highlightWords": [
+			"high-performance, optimized web solutions",
+			"stability",
+			"quality of every project",
+			"Lead Dev",
+			"Developer,",
+			"React, Angular, TypeScript and JavaScript"
+		]
+	},
+	"skills": {
+		"areas": [
+			{
+				"title": "Areas of Expertise",
+				"skills": [
+					"Front-end Development",
+					"Back-end Development",
+					"Mobile Development",
+					"Continuous Integration and Deployment",
+					"Performance Optimization"
+				]
+			},
+			{
+				"title": "Technical Skills",
+				"skills": [
+					"Front-end Languages: TypeScript, JavaScript, Sass",
+					"Front-end Frameworks: React, Angular, React Native (mobile)",
+					"Back-end Languages: Node.js, Python, Java",
+					"Back-end Frameworks: Express, NestJS",
+					"DevOps & CI/CD: Git, GitLab, Docker, Jenkins",
+					"Databases: MongoDB, MySQL, PostgreSQL"
+				],
+				"highlightWords": [
+					"Front-end Languages:",
+					"Front-end Frameworks:",
+					"Back-end Languages:",
+					"Back-end Frameworks:",
+					"DevOps & CI/CD:",
+					"Databases:"
+				]
+			}
+		]
 	}
 }

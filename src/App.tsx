@@ -1,4 +1,5 @@
 import generatePDF, { Margin, Options } from 'react-to-pdf';
+import Content from './Components/Content/Content';
 import Header from './Components/Header/Header';
 import './App.scss';
 
@@ -33,6 +34,7 @@ function App() {
 			</button>
 			<div id="content-id">
 				<Header />
+				<Content />
 			</div>
 		</div>
 	);

@@ -1,0 +1,21 @@
+.skills {
+	@include padding(padding-left, 1rem);
+	color: $text-primary;
+	list-style: none;
+	margin: 1rem 0 0.5rem;
+
+	li {
+		@include padding(padding-left, 1.25rem);
+		position: relative;
+		text-align: justify;
+		font-size: 1rem;
+		line-height: 1.5;
+
+		&::before {
+			content: '•';
+			position: absolute;
+			left: 0;
+			color: $text-primary;
+		}
+	}
+}
