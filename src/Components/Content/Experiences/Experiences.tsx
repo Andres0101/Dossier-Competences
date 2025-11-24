@@ -7,11 +7,7 @@ export default function Experiences() {
 	const highlightPatternAffeniteam = t.experiences.affeniteam.highlightWords;
 	const highlightPatternSully = t.experiences.sully.highlightWords;
 
-	const renderWithHighlights = (
-		text: string,
-		company: string,
-		underline: boolean = false
-	) => {
+	const renderWithHighlights = (text: string, company: string) => {
 		const highlightPattern =
 			company === 'Soop'
 				? highlightPatternSoop
@@ -24,10 +20,7 @@ export default function Experiences() {
 				highlightPattern.some(
 					(word: string) => word.toLowerCase() === part.toLowerCase()
 				) ? (
-					<span
-						key={`${part}-${index}`}
-						className={`fw-700 ${underline ? 'underline' : ''}`}
-					>
+					<span key={`${part}-${index}`} className={`fw-700 underline`}>
 						{part}
 					</span>
 				) : (
@@ -119,11 +112,7 @@ export default function Experiences() {
 						}`}
 					>
 						<p className={`fs-16 lh-relaxed t-jus`}>
-							{renderWithHighlights(
-								project.title,
-								t.experiences.sully.company,
-								true
-							)}
+							{renderWithHighlights(project.title, t.experiences.sully.company)}
 						</p>
 						{/* Missions */}
 						<div className={`flex-col gap-4`}>
