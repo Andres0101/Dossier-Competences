@@ -4,16 +4,9 @@
 	flex-direction: column;
 	gap: 2rem;
 
-	.separator {
+	.pageBreak {
 		page-break-before: always;
-		height: 22rem;
-	}
-
-	.newPage {
-		margin-top: 980px;
-	}
-	.lastPage {
-		margin-top: 770px;
+		break-before: page;
 	}
 
 	.list {

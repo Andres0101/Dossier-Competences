@@ -86,7 +86,7 @@ export default function Experiences() {
 			</div>
 
 			{/* Sully */}
-			<div className={`flex-col gap-24 ${styles.newPage}`}>
+			<div className={`flex-col gap-24 ${styles.pageBreak}`}>
 				<div className={`flex-col gap-4 borderTop borderBottom`}>
 					<div className={`flex-row ic jb`}>
 						<h2 className={`fw-600`}>{t.experiences.sully.company}</h2>
@@ -148,7 +148,7 @@ export default function Experiences() {
 			</div>
 
 			{/* Affeniteam */}
-			<div className={`flex-col gap-24 ${styles.lastPage}`}>
+			<div className={`flex-col gap-24 ${styles.pageBreak}`}>
 				<div className={`flex-col gap-4 borderTop borderBottom`}>
 					<div className={`flex-row ic jb`}>
 						<h2 className={`fw-600`}>{t.experiences.affeniteam.company}</h2>

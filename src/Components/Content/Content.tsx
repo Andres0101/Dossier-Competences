@@ -14,8 +14,9 @@ export default function Content() {
 			<Skills />
 			<Education />
 			<Languages />
-			<div className={styles.separator} aria-hidden />
-			<Experiences />
+			<div className={styles.pageBreak}>
+				<Experiences />
+			</div>
 		</div>
 	);
 }
