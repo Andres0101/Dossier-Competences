@@ -4,7 +4,7 @@
 	},
 	"profile": {
 		"title": "Profil",
-		"description": "Développeur Full Stack expérimenté avec plus de 7 ans d'expérience dans la création de solutions web performantes et optimisées. Compétent dans l'identification et la résolution rapide des bugs, garantissant la stabilité et la qualité de chaque projet.\nEn tant que Lead Dev et Développeur, je garantis la productivité et l'efficacité nécessaires pour atteindre les résultats attendus dans les projets, en m'adaptant rapidement aux nouveaux environnements et technologies. Spécialisé dans React, Angular, TypeScript et JavaScript, toujours en quête d'optimisation et de performance, appliquant les meilleures pratiques pour garantir des applications rapides, scalables et maintenables.",
+		"description": "Développeur Full Stack expérimenté avec plus de 8 ans d'expérience dans la création de solutions web performantes et optimisées. Compétent dans l'identification et la résolution rapide des bugs, garantissant la stabilité et la qualité de chaque projet.\nEn tant que Lead Dev et Développeur, je garantis la productivité et l'efficacité nécessaires pour atteindre les résultats attendus dans les projets, en m'adaptant rapidement aux nouveaux environnements et technologies. Spécialisé dans React, Angular, TypeScript et JavaScript, toujours en quête d'optimisation et de performance, appliquant les meilleures pratiques pour garantir des applications rapides, scalables et maintenables.",
 		"highlightWords": [
 			"solutions web performantes et optimisées",
 			"stabilité",
@@ -29,7 +29,7 @@
 			{
 				"title": "Compétences Techniques",
 				"skills": [
-					"Langages Front-end : TypeScript, JavaScript, Sass",
+					"Langages Front-end : TypeScript, JavaScript, SCSS",
 					"Frameworks Front-end : React, Angular, React Native (mobile)",
 					"Langages Back-end : Node.js, Python, Java",
 					"Frameworks Back-end : Express, NestJS",
@@ -69,7 +69,7 @@
 		"soop": {
 			"position": "Développeur Full Stack (web / mobile)",
 			"company": "Soop",
-			"period": "Mai 2023 - Présent",
+			"period": "Mai 2023 - Mars 2026",
 			"project": "PROJET : Restructuration et refonte de l'application web et mobile, en collaboration avec l'équipe UX/UI, afin d'offrir une expérience utilisateur fluide et de garantir ainsi l'optimisation et la performance des applications.",
 			"highlightWords": ["PROJET :"],
 			"missions": {
@@ -93,7 +93,7 @@
 					"Node.js",
 					"MongoDB",
 					"Express",
-					"SASS",
+					"SCSS",
 					"Git"
 				]
 			},
@@ -133,7 +133,7 @@
 							"React Native",
 							"TypeScript",
 							"JavaScript",
-							"SASS",
+							"SCSS",
 							"Git",
 							"SQL",
 							"Scrum"
@@ -216,7 +216,7 @@
 					},
 					"technologies": {
 						"title": "Environnement technique",
-						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+						"list": ["Angular", "TypeScript", "SCSS", "Git", "Scrum"]
 					},
 					"results": {
 						"title": "Résultats",
@@ -237,7 +237,7 @@
 					},
 					"technologies": {
 						"title": "Environnement technique",
-						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+						"list": ["Angular", "TypeScript", "SCSS", "Git", "Scrum"]
 					},
 					"results": {
 						"title": "Résultats",

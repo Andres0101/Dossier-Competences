@@ -4,7 +4,7 @@
 	},
 	"profile": {
 		"title": "Profile",
-		"description": "Experienced Full Stack Developer with over 7 years of experience creating high-performance, optimized web solutions. Skilled in quickly identifying and resolving bugs, ensuring stability and the quality of every project.\nAs a Lead Dev and Developer, I guarantee the productivity and efficiency required to achieve expected project outcomes, adapting rapidly to new environments and technologies. Specialized in React, Angular, TypeScript and JavaScript, always seeking optimization and performance by applying best practices to deliver fast, scalable and maintainable applications.",
+		"description": "Experienced Full Stack Developer with over 8 years of experience creating high-performance, optimized web solutions. Skilled in quickly identifying and resolving bugs, ensuring stability and the quality of every project.\nAs a Lead Dev and Developer, I guarantee the productivity and efficiency required to achieve expected project outcomes, adapting rapidly to new environments and technologies. Specialized in React, Angular, TypeScript and JavaScript, always seeking optimization and performance by applying best practices to deliver fast, scalable and maintainable applications.",
 		"highlightWords": [
 			"high-performance, optimized web solutions",
 			"stability",
@@ -29,7 +29,7 @@
 			{
 				"title": "Technical Skills",
 				"skills": [
-					"Front-end Languages: TypeScript, JavaScript, Sass",
+					"Front-end Languages: TypeScript, JavaScript, SCSS",
 					"Front-end Frameworks: React, Angular, React Native (mobile)",
 					"Back-end Languages: Node.js, Python, Java",
 					"Back-end Frameworks: Express, NestJS",
@@ -65,7 +65,7 @@
 		"soop": {
 			"position": "Full Stack Developer (web / mobile)",
 			"company": "Soop",
-			"period": "May 2023 - Present",
+			"period": "May 2023 - March 2026",
 			"project": "PROJECT: Restructuring and redesign of web and mobile applications, in collaboration with the UX/UI team, to provide a smooth user experience and ensure optimization and performance of applications.",
 			"highlightWords": ["PROJECT:"],
 			"missions": {
@@ -89,7 +89,7 @@
 					"Node.js",
 					"MongoDB",
 					"Express",
-					"SASS",
+					"SCSS",
 					"Git"
 				]
 			},
@@ -129,7 +129,7 @@
 							"React Native",
 							"TypeScript",
 							"JavaScript",
-							"SASS",
+							"SCSS",
 							"Git",
 							"SQL",
 							"Scrum"
@@ -212,7 +212,7 @@
 					},
 					"technologies": {
 						"title": "Technical Environment",
-						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+						"list": ["Angular", "TypeScript", "SCSS", "Git", "Scrum"]
 					},
 					"results": {
 						"title": "Results",
@@ -233,7 +233,7 @@
 					},
 					"technologies": {
 						"title": "Technical Environment",
-						"list": ["Angular", "TypeScript", "Sass", "Git", "Scrum"]
+						"list": ["Angular", "TypeScript", "SCSS", "Git", "Scrum"]
 					},
 					"results": {
 						"title": "Results",
