@@ -278,5 +278,55 @@
 				"description": "Expérience utilisateur enrichie, amélioration des performances des applications et réduction des temps de développement."
 			}
 		}
+	},
+	"personal_projects": {
+		"title": "Projets personnels parallèles",
+		"projects": [
+			{
+				"title": "Fitness Tracker",
+				"stack": "Angular 19",
+				"description": "Une application de suivi fitness personnel, construite avec Angular 19, conçue pour enregistrer des entraînements, créer des routines réutilisables, définir et suivre des objectifs fitness, et visualiser la progression au fil du temps grâce à des graphiques interactifs.",
+				"features": {
+					"title": "Fonctionnalités",
+					"list": [
+						"Gestion complète des entraînements avec un formulaire réactif dynamique prenant en charge plusieurs exercices, chacun avec plusieurs séries (poids, répétitions, unité, statut de complétion). Inclut la recherche et le filtrage par nom d'entraînement ou d'exercice, une vue détaillée de l'entraînement avec des tableaux de données, et un mode édition avec protection contre les modifications non sauvegardées.",
+						"Création des modèles d'entraînement réutilisables qui définissent des exercices avec des séries, répétitions et poids par défaut.",
+						"Définition des objectifs fitness selon quatre types : force (poids maximum sur un exercice), fréquence (entraînements par semaine), volume (poids total soulevé) et durée (temps d'entraînement par semaine). Les objectifs sont organisés par statut (Actif, Complété, Abandonné) avec des barres de progression qui se mettent à jour automatiquement à mesure que les entraînements sont enregistrés.",
+						"Affichage des cartes statistiques dans le tableau de bord (entraînements cette semaine, temps d'entraînement, volume total, objectifs actifs), liste des entraînements récents, résumé des objectifs actifs, et boutons d'actions rapides incluant le démarrage d'un entraînement en un clic à partir des routines sauvegardées.",
+						"Trois graphiques interactifs.",
+						"Mode sombre et clair avec persistance entre les sessions. Appliqué globalement via le système de thèmes d'Angular Material."
+					]
+				},
+				"technologies": {
+					"title": "Environnement technique",
+					"list": [
+						"Angular 19",
+						"TypeScript",
+						"Angular Material",
+						"Chart.js + ng2-charts",
+						"LocalStorage",
+						"SCSS"
+					]
+				}
+			},
+			{
+				"title": "CV Generator",
+				"stack": "React 18",
+				"description": "Une application web basée sur React qui génère dynamiquement un Curriculum Vitae professionnel, prêt à l'impression au format A4.",
+				"features": {
+					"title": "Fonctionnalités",
+					"list": [
+						"Support multilingue (Français & Anglais) via un hook personnalisé useTranslation piloté par des variables d'environnement.",
+						"Export PDF utilisant la fonctionnalité d'impression du navigateur, préservant le texte sélectionnable et le formatage A4.",
+						"Personnalisation via variables d'environnement.",
+						"Architecture modulaire en composants."
+					]
+				},
+				"technologies": {
+					"title": "Environnement technique",
+					"list": ["React 18", "TypeScript", "Vite", "jsPDF", "SCSS"]
+				}
+			}
+		]
 	}
 }

@@ -274,5 +274,55 @@
 				"description": "Enhanced user experience, improved application performance and reduced development times."
 			}
 		}
+	},
+	"personal_projects": {
+		"title": "Personal side projects",
+		"projects": [
+			{
+				"title": "Fitness Tracker",
+				"stack": "Angular 19",
+				"description": "A full-featured personal fitness tracking single-page application built with Angular 19, designed to log workouts, create reusable routines, set and track fitness goals, and visualize progress over time through interactive charts.",
+				"features": {
+					"title": "Features",
+					"list": [
+						"Full CRUD for workouts with a dynamic reactive form supporting multiple exercises, each with multiple sets (weight, reps, unit, completion status). Includes search and filtering by workout name or exercise, detailed workout view with data tables, and edit mode with unsaved changes protection.",
+						"Create reusable workout templates that define exercises with default sets, reps, and weights.",
+						"Set fitness goals across four types: strength (max weight on an exercise), frequency (workouts per week), volume (total weight lifted), and duration (training time per week). Goals are organized by status (Active, Completed, Abandoned) with progress bars that update automatically as workouts are logged.",
+						"At-a-glance overview with stat cards (workouts this week, training time, total volume, active goals), recent workout list, active goals summary, and quick action buttons including one-tap workout start from saved routines.",
+						"Three interactive charts.",
+						"Dark and light mode with persistence across sessions. Applied globally through Angular Material's theming system."
+					]
+				},
+				"technologies": {
+					"title": "Technical Environment",
+					"list": [
+						"Angular 19",
+						"TypeScript",
+						"Angular Material",
+						"Chart.js + ng2-charts",
+						"LocalStorage",
+						"SCSS"
+					]
+				}
+			},
+			{
+				"title": "CV Generator",
+				"stack": "React 18",
+				"description": "A React-based web application that dynamically generates a professional, print-ready Curriculum Vitae in A4 format.",
+				"features": {
+					"title": "Features",
+					"list": [
+						"Multi-language support (French & English) via a custom useTranslation hook driven by environment variables.",
+						"PDF export using browser print functionality, preserving selectable text and A4 formatting.",
+						"Environment-driven personalization.",
+						"Modular component architecture."
+					]
+				},
+				"technologies": {
+					"title": "Technical Environment",
+					"list": ["React 18", "TypeScript", "Vite", "jsPDF", "SCSS"]
+				}
+			}
+		]
 	}
 }

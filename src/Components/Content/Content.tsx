@@ -2,6 +2,7 @@
 import Education from './Education/Education';
 import Experiences from './Experiences/Experiences';
 import Languages from './Languages/Languages';
+import Projects from './Projects/Projects';
 import Profile from './Profile/Profile';
 import Skills from './Skills/Skills';
 // Styles
@@ -16,6 +17,9 @@ export default function Content() {
 			<Languages />
 			<div className={styles.pageBreak}>
 				<Experiences />
+			</div>
+			<div className={styles.pageBreak}>
+				<Projects />
 			</div>
 		</div>
 	);
