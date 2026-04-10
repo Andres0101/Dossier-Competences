@@ -1,4 +1,4 @@
-import avatar from 'assets/photo.jpg';
+import avatar from 'assets/photo.png';
 import styles from './Avatar.module.scss';
 
 export default function Avatar() {

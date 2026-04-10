@@ -1,6 +1,7 @@
 .avatar {
 	width: 10.5rem;
 	height: 10.5rem;
+	border: 2px solid white;
 	border-radius: 50%;
 	background: $bg-white;
 	overflow: hidden;
@@ -10,9 +11,8 @@
 
 	img {
 		position: relative;
-		top: 20%;
-		width: 200%;
-		height: 235%;
+		width: 100%;
+		height: 100%;
 		object-fit: cover;
 	}
 }
