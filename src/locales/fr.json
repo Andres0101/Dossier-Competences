@@ -1,10 +1,10 @@
 {
 	"header": {
-		"title": "Lead Développeur / Développeur Full Stack (React / Node.js)"
+		"title": "Développeur Frontend Senior"
 	},
 	"profile": {
 		"title": "Profil",
-		"description": "Développeur Full Stack expérimenté avec plus de 8 ans d'expérience dans la création de solutions web performantes et optimisées. Compétent dans l'identification et la résolution rapide des bugs, garantissant la stabilité et la qualité de chaque projet.\nEn tant que Lead Dev et Développeur, je garantis la productivité et l'efficacité nécessaires pour atteindre les résultats attendus dans les projets, en m'adaptant rapidement aux nouveaux environnements et technologies. Spécialisé dans React, Angular, TypeScript et JavaScript, toujours en quête d'optimisation et de performance, appliquant les meilleures pratiques pour garantir des applications rapides, scalables et maintenables.",
+		"description": "Développeur Frontend Senior avec de 8 ans d'expérience dans la création de solutions web performantes et optimisées. Compétent dans l'identification et la résolution rapide des bugs, garantissant la stabilité et la qualité de chaque projet.\nEn tant que Lead Dev et Développeur, je garantis la productivité et l'efficacité nécessaires pour atteindre les résultats attendus dans les projets, en m'adaptant rapidement aux nouveaux environnements et technologies. Spécialisé dans React, Angular, TypeScript et JavaScript, toujours en quête d'optimisation et de performance, appliquant les meilleures pratiques pour garantir des applications rapides, scalables et maintenables.",
 		"highlightWords": [
 			"solutions web performantes et optimisées",
 			"stabilité",
@@ -67,7 +67,7 @@
 	"experiences": {
 		"title": "Références projets",
 		"soop": {
-			"position": "Développeur Full Stack (web / mobile)",
+			"position": "Développeur Frontend Senior",
 			"company": "Soop",
 			"period": "Mai 2023 - Mars 2026",
 			"project": "PROJET : Restructuration et refonte de l'application web et mobile, en collaboration avec l'équipe UX/UI, afin d'offrir une expérience utilisateur fluide et de garantir ainsi l'optimisation et la performance des applications.",
@@ -103,7 +103,7 @@
 			}
 		},
 		"sully": {
-			"position": "Développeur / Lead Développeur Front-end (web / mobile)",
+			"position": "Développeur Frontend Senior",
 			"company": "Sully Group",
 			"period": "Septembre 2018 - Avril 2023",
 			"highlightWords": [
@@ -247,7 +247,7 @@
 			]
 		},
 		"affeniteam": {
-			"position": "Développeur Full Stack - Stage de fin d'études",
+			"position": "Développeur Frontend Senior",
 			"company": "Affeniteam (HUB de l'entrepreneuriat)",
 			"period": "Mars 2018 - Septembre 2018",
 			"project": "PROJET : Maquettation et refonte des applications web, en répondant aux besoins fonctionnels et aux exigences métier.",
